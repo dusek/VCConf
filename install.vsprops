@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Name Mangling"
+	>
+    <!-- Defines binary installation policy
+
+    This will copy binaries and corresponding .pdb files into
+    destination directory.
+
+    -->
+
+    <UserMacro
+        Name="$(SDKsRoot)"
+        Value="$(SDK)"
+    />
+    <UserMacro
+        Name="LibraryDir"
+        Value="$(SDKsRoot)$(LibraryName)\"
+    />
+    <UserMacro
+        Name="InstallDir"
+        Value="$(LibraryDir)$(LibraryVersion)\"
+    />
+    <UserMacro
+        Name="InstallDirHeadersName"
+        Value="include"
+    />
+    <UserMacro
+        Name="InstallDirLibsName"
+        Value="lib"
+    />
+    <UserMacro
+        Name="InstallDirHeaders"
+        Value="$(InstallDir)\$(InstallDirHeadersName)\"
+    />
+    <UserMacro
+        Name="InstallDirLibs"
+        Value="$(InstallDir)\$(InstallDirLibsName)\"
+    />
+    <UserMacro
+        Name="ImportLibraryName"
+        Value="$(TargetPath)$(TargetName).lib"
+    />
+    <UserMacro
+        Name="PdbName"
+        Value="$(TargetPath)$(TargetName).pdb"
+    />
+</VisualStudioPropertySheet>
+

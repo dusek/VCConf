@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Name Mangling"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		OutputFile="$(MyTargetDirNPrefix)$(MangledConfig)$(MyTargetExt)"
+	/>
+	<UserMacro
+		Name="ThreadingMulti"
+		Value="-mt"
+	/>
+	<UserMacro
+		Name="ThreadingSingle"
+		Value=""
+	/>
+	<UserMacro
+		Name="DebugInfoYes"
+		Value="-gd"
+	/>
+	<UserMacro
+		Name="DebugInfoNo"
+		Value=""
+	/>
+	<UserMacro
+		Name="MyToolsetVersion"
+		Value="$(ToolsetVersion)"
+	/>
+	<UserMacro
+		Name="MangledConfig"
+		Value="$(Threading)$(DebugInfo)$(MyToolsetVersion)"
+	/>
+	<UserMacro
+		Name="MyTargetPrefix"
+		Value="$(SolutionName)"
+	/>
+	<UserMacro
+		Name="MyTargetDirNPrefix"
+		Value="$(OutDir)\$(MyTargetPrefix)"
+	/>
+</VisualStudioPropertySheet>

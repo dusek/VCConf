@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Build locations"
+	OutputDirectory="$(BuildDir)$(PlatConfDir)"
+	IntermediateDirectory="$(BuildDir).objs\$(PlatConfDir)$(ProjectName)\"
+	>
+	<UserMacro
+		Name="PlatConfDir"
+		Value="$(PlatformName)\$(ConfigurationName)\"
+	/>
+	<UserMacro
+		Name="BuildDir"
+		Value="$(SolutionDir)\bin\"
+	/>
+</VisualStudioPropertySheet>
