@@ -9,12 +9,12 @@
 		OutputFile="$(MyTargetDirNPrefix)$(MangledConfig)$(MyTargetExt)"
 	/>
 	<UserMacro
-		Name="ThreadingMulti"
-		Value="-mt"
-	/>
-	<UserMacro
 		Name="ThreadingSingle"
 		Value=""
+	/>
+	<UserMacro
+		Name="ThreadingMulti"
+		Value="-mt"
 	/>
 	<UserMacro
 		Name="DebugInfoYes"
@@ -38,6 +38,10 @@
 	/>
 	<UserMacro
 		Name="MyTargetDirNPrefix"
-		Value="$(OutDir)\$(MyTargetPrefix)"
+		Value="$(OutDir)$(MyTargetPrefix)"
+	/>
+	<UserMacro
+		Name="Threading"
+		Value="$(ThreadingMulti)"
 	/>
 </VisualStudioPropertySheet>

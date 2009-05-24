@@ -12,6 +12,6 @@
 	/>
 	<UserMacro
 		Name="BuildDir"
-		Value="$(SolutionDir)\bin\"
+		Value="$(SolutionDir)bin\"
 	/>
 </VisualStudioPropertySheet>
