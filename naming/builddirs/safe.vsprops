@@ -2,7 +2,7 @@
 <VisualStudioPropertySheet
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="Safe Build locations"
+	Name="Safe Build Locations"
 	OutputDirectory="$(BuildDir)$(PlatConfDir)"
 	IntermediateDirectory="$(BuildDir).objs\$(PlatConfDir)$(ProjectName)\"
 	>
