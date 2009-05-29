@@ -25,12 +25,12 @@
 		Value=""
 	/>
 	<UserMacro
-		Name="MyToolsetVersion"
-		Value="$(ToolsetVersion)"
+		Name="ToolsetVersion"
+		Value="-$(VCCToolsetVersion)"
 	/>
 	<UserMacro
 		Name="MangledConfig"
-		Value="$(Threading)$(DebugInfo)$(MyToolsetVersion)"
+		Value="$(Threading)$(DebugInfo)$(ToolsetVersion)"
 	/>
 	<UserMacro
 		Name="MyTargetPrefix"

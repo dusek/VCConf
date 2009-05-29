@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="VC Version naming: boost"
+	>
+	<UserMacro
+		Name="VCCToolsetVersion71"
+		Value="vc71"
+	/>
+	<UserMacro
+		Name="VCCToolsetVersion80"
+		Value="vc80"
+	/>
+	<UserMacro
+		Name="VCCToolsetVersion90"
+		Value="vc90"
+	/>
+	<UserMacro
+		Name="VCCToolsetVersion100"
+		Value="vc100"
+	/>
+</VisualStudioPropertySheet>
+
