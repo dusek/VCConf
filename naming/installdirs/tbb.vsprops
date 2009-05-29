@@ -3,6 +3,7 @@
 	ProjectType="Visual C++"
 	Version="8.00"
 	Name="Install locations: tbb"
+	InheritedPropertySheets=".\_prefix.vsprops"
 	>
 	<UserMacro
 		Name="InstallDirLibCommon"
