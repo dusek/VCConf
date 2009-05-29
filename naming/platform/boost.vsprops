@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Architecture naming: boost"
+	>
+	<UserMacro
+		Name="VCCPlatformX86"
+		Value=""
+	/>
+	<UserMacro
+		Name="VCCPlatformX64"
+		Value="64"
+	/>
+	<UserMacro
+		Name="VCCPlatformIA64"
+		Value="ia64"
+	/>
+</VisualStudioPropertySheet>

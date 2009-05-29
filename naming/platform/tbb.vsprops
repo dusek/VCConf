@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Architecture naming: tbb"
+	>
+	<UserMacro
+		Name="VCCPlatformX86"
+		Value="ia32"
+	/>
+	<UserMacro
+		Name="VCCPlatformX64"
+		Value="em64t"
+	/>
+	<UserMacro
+		Name="VCCPlatformIA64"
+		Value="ia64"
+	/>
+</VisualStudioPropertySheet>
