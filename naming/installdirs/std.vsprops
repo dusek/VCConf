@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Install locations: standard"
+	InheritedPropertySheets=".\_prefix.vsprops"
+	>
+	<UserMacro
+		Name="InstallDirLibCommon"
+		Value="$(InstallDir)lib$(VCCPlatform)\"
+	/>
+	<UserMacro
+		Name="InstallDirRuntime"
+		Value="$(InstallDirLibCommon)"
+	/>
+	<UserMacro
+		Name="InstallDirLink"
+		Value="$(InstallDirLibCommon)"
+	/>
+	<UserMacro
+		Name="InstallDirHeaders"
+		Value="$(InstallDir)include\"
+	/>
+</VisualStudioPropertySheet>

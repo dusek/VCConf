@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Install"
+	>
+	<UserMacro
+		Name="InstallCmd"
+		Value="mkdir &quot;$(InstallDirRuntime)&quot; &amp; mkdir &quot;$(InstallDirLink)&quot; &amp; mkdir &quot;$(InstallDirHeaders)&quot; &amp; copy &quot;$(TargetPath)&quot; &quot;$(InstallDirRuntime)&quot; &amp; copy &quot;$(PdbPath)&quot; &quot;$(InstallDirRuntime)&quot; &amp; copy &quot;$(ImportLibPath)&quot; &quot;$(InstallDirLink)&quot; &amp; $(InstallHeadersCmd)"
+	/>
+	<UserMacro
+		Name="PdbPath"
+		Value="$(TargetDir)$(TargetName).pdb"
+	/>
+	<UserMacro
+		Name="ImportLibPath"
+		Value="$(TargetDir)$(TargetName).lib"
+	/>
+	<UserMacro
+		Name="InstallCmdHeaders"
+		Value="xcopy /E /Y $(SolutionDir)include\* $(InstallDirHeaders)"
+	/>
+</VisualStudioPropertySheet>

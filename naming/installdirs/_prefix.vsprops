@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Install prefix: standard"
+	>
+	<UserMacro
+		Name="InstallDir"
+		Value="$(SDK)$(LibraryName)\$(LibraryVersion)\"
+	/>
+	<UserMacro
+		Name="InstallDirRuntime"
+		Value="$(InstallDirLibCommon)"
+	/>
+	<UserMacro
+		Name="InstallDirLink"
+		Value="$(InstallDirLibCommon)"
+	/>
+	<UserMacro
+		Name="InstallDirHeaders"
+		Value="$(InstallDir)include\"
+	/>
+</VisualStudioPropertySheet>
+

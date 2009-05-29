@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="Install locations: tbb"
+	>
+	<UserMacro
+		Name="InstallDirLibCommon"
+		Value="$(InstallDir)$(VCCPlatform)\$(MyToolsetVersion)\"
+	/>
+	<UserMacro
+		Name="InstallDirRuntime"
+		Value="$(InstallDirLibCommon)\bin"
+	/>
+	<UserMacro
+		Name="InstallDirLink"
+		Value="$(InstallDirLibCommon)\lib"
+	/>
+	<UserMacro
+		Name="InstallDirHeaders"
+		Value="$(InstallDir)include\"
+	/>
+</VisualStudioPropertySheet>
