@@ -5,6 +5,10 @@
 	Name="Install prefix: standard"
 	>
 	<UserMacro
+		Name="LibraryName"
+		Value="$(SolutionName)"
+	/>
+	<UserMacro
 		Name="InstallDir"
 		Value="$(SDK)$(LibraryName)\$(LibraryVersion)\"
 	/>
@@ -21,4 +25,3 @@
 		Value="$(InstallDir)include\"
 	/>
 </VisualStudioPropertySheet>
-
