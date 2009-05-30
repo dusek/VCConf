@@ -17,7 +17,11 @@
 		Value="$(TargetDir)$(TargetName).lib"
 	/>
 	<UserMacro
+		Name="SrcDir"
+		Value="$(SolutionDir)"
+	/>
+	<UserMacro
 		Name="InstallCmdHeaders"
-		Value="xcopy /E /Y $(SolutionDir)include\* $(InstallDirHeaders)"
+		Value="xcopy /E /Y $(SrcDir)include\* $(InstallDirHeaders)"
 	/>
 </VisualStudioPropertySheet>
