@@ -4,11 +4,11 @@
 	Version="8.00"
 	Name="Safe Build Locations"
 	OutputDirectory="$(BuildDir)$(PlatConfDir)"
-	IntermediateDirectory="$(BuildDir).objs\$(PlatConfDir)$(ProjectName)\"
+	IntermediateDirectory="$(BuildDir).objs\$(PlatConfDir)\$(ProjectName)\"
 	>
 	<UserMacro
 		Name="PlatConfDir"
-		Value="$(PlatformName)\$(ConfigurationName)\"
+		Value="$(PlatformName)\$(ConfigurationName)"
 	/>
 	<UserMacro
 		Name="BuildRoot"
