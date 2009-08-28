@@ -8,4 +8,8 @@
 		Name="DebugInfo"
 		Value="$(DebugInfoYes)"
 	/>
+	<UserMacro
+		Name="BoostConfigVariant"
+		Value="$(BoostConfigVariantDebug)"
+	/>
 </VisualStudioPropertySheet>
