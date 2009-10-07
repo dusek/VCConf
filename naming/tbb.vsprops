@@ -2,7 +2,7 @@
 <VisualStudioPropertySheet
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="Naming: TBB"
-	InheritedPropertySheets="installdirs\tbb.vsprops;mangle\tbb.vsprops;platform\tbb.vsprops;toolset\tbb.vsprops"
+	Name="Naming: TBB 2.2"
+	InheritedPropertySheets="installdirs\tbb.vsprops;mangle\tbb.vsprops;platform\tbb_22.vsprops;toolset\tbb.vsprops"
 	>
 </VisualStudioPropertySheet>

@@ -2,7 +2,7 @@
 <VisualStudioPropertySheet
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="Architecture naming: tbb <2.2"
+	Name="Architecture naming: tbb >=2.2"
 	>
 	<UserMacro
 		Name="VCCPlatformX86"
@@ -10,7 +10,7 @@
 	/>
 	<UserMacro
 		Name="VCCPlatformX64"
-		Value="em64t"
+		Value="intel64"
 	/>
 	<UserMacro
 		Name="VCCPlatformIA64"
