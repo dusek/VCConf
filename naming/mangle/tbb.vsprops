@@ -5,6 +5,10 @@
 	Name="TBB Name Mangling"
 	>
 	<Tool
+		Name="VCLibrarianTool"
+		OutputFile="$(MyTargetDirNPrefix)$(MangledConfig)$(MyTargetExt)"
+	/>
+	<Tool
 		Name="VCLinkerTool"
 		OutputFile="$(MyTargetDirNPrefix)$(MangledConfig)$(MyTargetExt)"
 	/>
@@ -34,7 +38,7 @@
 	/>
 	<UserMacro
 		Name="MyTargetPrefix"
-		Value="$(SolutionName)"
+		Value="$(ProjectName)"
 	/>
 	<UserMacro
 		Name="MyTargetDirNPrefix"
