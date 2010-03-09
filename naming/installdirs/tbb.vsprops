@@ -7,15 +7,15 @@
 	>
 	<UserMacro
 		Name="InstallDirLibCommon"
-		Value="$(InstallDir)$(VCCPlatform)\$(MyToolsetVersion)\"
+		Value="$(InstallDir)$(VCCPlatform)\$(VCCToolsetVersion)\"
 	/>
 	<UserMacro
 		Name="InstallDirRuntime"
-		Value="$(InstallDirLibCommon)\bin"
+		Value="$(InstallDirLibCommon)bin\"
 	/>
 	<UserMacro
 		Name="InstallDirLink"
-		Value="$(InstallDirLibCommon)\lib"
+		Value="$(InstallDirLibCommon)lib\"
 	/>
 	<UserMacro
 		Name="InstallDirHeaders"

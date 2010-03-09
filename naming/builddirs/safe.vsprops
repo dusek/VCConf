@@ -8,7 +8,7 @@
 	>
 	<UserMacro
 		Name="PlatConfDir"
-		Value="$(PlatformName)\$(ConfigurationName)"
+		Value="$(PlatformName)\$(ConfigurationName)\"
 	/>
 	<UserMacro
 		Name="BuildRoot"
